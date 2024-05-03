@@ -1,0 +1,60 @@
+:root {
+    --text-blue-color: #00A1E4;
+}
+.adjust {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.text-animate {
+    color: transparent;
+    -webkit-text-stroke: .7px var(--text-blue-color);
+}
+.transition {
+    transition: .2s;
+}
+
+.skill-box {
+    position: relative;
+    z-index: 1;
+}
+
+.skill-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #081C29;
+    z-index: -1;
+    transition: .5s;
+}
+
+.skill-box:hover::before {
+    width: 100%;
+}
+
+.journey {
+    position: relative;
+    z-index: 1;
+}
+
+.journey::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0D2D43;
+    z-index: -1;
+    transition: .5s;
+}
+
+.journey:hover::before {
+    width: 100%;
+}
+
+.margin-end {
+    margin-left: auto !important;
+}

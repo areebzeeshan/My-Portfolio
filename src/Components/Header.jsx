@@ -21,7 +21,7 @@ const Header = () => {
                 functionality together to deliver seamless user interactions. Let's build something amazing together! ✨
             </p>
             <div href="" className="grid gap-3 md:flex md:space-x-2">
-                <a className="bg-[#00A1E4] hover:bg-transparent hover:text-[#00A1E4] hover:outline text-white font-bold py-2 px-4 rounded transition">
+                <a href="#contact" className="bg-[#00A1E4] hover:bg-transparent hover:text-[#00A1E4] hover:outline text-white font-bold py-2 px-4 rounded transition">
                     Hire Me
                 </a>
                 <button className="bg-transparent outline outline-offset-1 outline-1 hover:bg-[#00A1E4] hover:text-white hover:outline-none text-[#00A1E4] font-bold py-2 px-4 rounded">

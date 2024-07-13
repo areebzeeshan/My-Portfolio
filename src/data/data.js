@@ -8,8 +8,14 @@ import tenderely from '../assets/images/tenderely.png'
 import trabajo from '../assets/images/trabajo.png'
 import eliteBond from '../assets/images/elite-bond.png'
 import expenseTracker from '../assets/images/dashboard.png'
+import cgs from '../assets/images/cgs.png'
 
 export const projects = [
+  {
+    imgSrc: cgs,
+    title: "CGS (ERP)",
+    url: "https://cgs-frontend.vercel.app/",
+  },
   {
     imgSrc: multisite,
     title: "Multisite",
